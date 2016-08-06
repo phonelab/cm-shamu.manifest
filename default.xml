@@ -64,7 +64,7 @@
   <project name="external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project name="external/fuse" />
   <project name="external/google" />
-  <project name="external/gmock" name="CyanogenMod/android_external_gmock"/>
+  <project name="external/gmock" />
   <project name="external/gson" />
   <project name="external/htop" />
   <project name="external/icu" groups="pdk" />
