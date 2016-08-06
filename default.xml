@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-      fetch="https://android.googlesource.com"
-      review="android-review.googlesource.com"
-      revision="refs/tags/android-6.0.1_r24" />
+  <remote  name="phonelab"
+      fetch=".." />
 
-  <remote  name="github"
-      fetch=".."
-      review="review.cyanogenmod.org" />
-
-  <remote  name="private"
-      fetch="ssh://git@github.com" />
-
-  <default revision="refs/heads/stable/cm-13.0-ZNH2K"
-      remote="github"
-      sync-c="true"
+  <default revision="phonelab/cm-13.0/develop"
+      remote="phonelab"
       sync-j="4" />
 
   <!-- BEGIN CYANOGENMOD -->
