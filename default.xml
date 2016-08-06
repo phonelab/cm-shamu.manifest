@@ -497,7 +497,7 @@
   <project name="hardware/intel/audio_media" groups="intel" />
   <project name="hardware/intel/bootstub" groups="intel" />
   <project name="hardware/intel/common/bd_prov" groups="intel" />
-  <project name="hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp"/>
+  <project name="hardware/intel/common/libstagefrighthw" groups="intel"/>
   <project name="hardware/intel/common/utils" groups="intel" />
   <project name="hardware/intel/common/wrs_omxil_core" groups="intel" />
   <project name="hardware/intel/sensors" groups="intel_sensors" />
