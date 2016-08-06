@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="phonelab"
-      fetch=".." />
+      fetch="." />
 
   <default revision="phonelab/cm-13.0/develop"
       remote="phonelab"
