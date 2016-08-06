@@ -8,6 +8,10 @@
       remote="phonelab"
       sync-j="4" />
 
+  <project path="vendor/google/build" />
+  <project path="vendor/opengapps/sources/all" />
+  <project path="vendor/opengapps/sources/arm" />
+
   <!-- BEGIN CYANOGENMOD -->
   <project path="build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
