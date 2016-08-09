@@ -232,7 +232,6 @@
   <project name="packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project name="packages/apps/CMBugReport" />
   <project name="packages/apps/CMFileManager" />
-  <project name="packages/apps/CMUpdater" />
   <project name="packages/apps/CMWallpapers" />
   <project name="packages/apps/Contacts" groups="pdk-fs" />
   <project name="packages/apps/ContactsCommon" groups="pdk-fs" />
