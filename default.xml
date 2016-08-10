@@ -18,6 +18,11 @@
   <project name="vendor/opengapps/sources/all" />
   <project name="vendor/opengapps/sources/arm" />
 
+  <!-- Kernel build script -->
+  <project name="kernel-build" groups="pdk" >
+    <copyfile src="device/moto/shamu/make-kernel" dest="make-kernel" />
+  </project>
+
   <!-- BEGIN CYANOGENMOD -->
   <project name="build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
