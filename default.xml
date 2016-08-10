@@ -11,17 +11,16 @@
   <project name="vendor/phonelab" />
   <project name="vendor/motorola" />
 
-  <project name="device/moto/shamu" />
+  <project name="device/moto/shamu" >
+    <!-- Kernel build script -->
+    <copyfile src="make-kernel" dest="make-kernel" />
+  </project>
+
   <project name="kernel/moto/shamu" />
 
   <project name="vendor/google/build" />
   <project name="vendor/opengapps/sources/all" />
   <project name="vendor/opengapps/sources/arm" />
-
-  <!-- Kernel build script -->
-  <project name="kernel-build" groups="pdk" >
-    <copyfile src="device/moto/shamu/make-kernel" dest="make-kernel" />
-  </project>
 
   <!-- BEGIN CYANOGENMOD -->
   <project name="build" groups="pdk" >
