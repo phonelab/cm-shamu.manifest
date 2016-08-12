@@ -11,7 +11,11 @@
   <project name="vendor/phonelab" />
   <project name="vendor/motorola" />
 
-  <project name="device/moto/shamu" />
+  <project name="device/moto/shamu" >
+    <!-- Kernel build script -->
+    <copyfile src="make-kernel" dest="make-kernel" />
+  </project>
+
   <project name="kernel/moto/shamu" />
 
   <project name="vendor/google/build" />
