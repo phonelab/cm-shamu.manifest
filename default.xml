@@ -17,10 +17,11 @@
   </project>
 
   <project name="kernel/moto/shamu" />
-
   <project name="vendor/google/build" />
   <project name="vendor/opengapps/sources/all" />
   <project name="vendor/opengapps/sources/arm" />
+  <project name="twrp_recovery" path="bootable/recovery"  />
+  <project name="external/busybox" />
 
   <!-- BEGIN CYANOGENMOD -->
   <project name="build" groups="pdk" >
@@ -30,7 +31,6 @@
   <project name="abi/cpp" groups="pdk" />
   <project name="art" groups="pdk" />
   <project name="bionic" groups="pdk" />
-  <project name="bootable/recovery" groups="pdk" />
   <project name="cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project name="dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project name="development" groups="pdk-cw-fs,pdk-fs" />
